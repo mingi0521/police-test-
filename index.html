@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>경찰 스킬 테스트 게임</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>경찰 스킬 테스트 게임</h1>
+    <div id="gameArea">
+        <div id="instruction">준비가 되면 시작 버튼을 클릭하세요!</div>
+        <button id="startBtn">게임 시작</button>
+        <div id="quizArea" class="hidden">
+            <div id="question"></div>
+            <button class="answerBtn">정답 1</button>
+            <button class="answerBtn">정답 2</button>
+            <button class="answerBtn">정답 3</button>
+            <button class="answerBtn">정답 4</button>
+        </div>
+        <div id="reactionArea" class="hidden">
+            <div id="reactionInstruction">이 버튼이 나타나면 클릭하세요!</div>
+            <button id="reactionBtn">클릭!</button>
+        </div>
+        <div id="scoreArea">
+            <div id="score">점수: 0</div>
+            <div id="round">라운드: 1</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
